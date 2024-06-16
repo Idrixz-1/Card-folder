@@ -1,0 +1,94 @@
+/* @media (max-width: 120em) {
+  .ground {
+    max-width: 70rem;
+  }
+
+  .ground {
+    grid-template-columns: repeat(2, 1fr);
+  }
+} */
+
+/* @media (max-width: 75em) {
+  html {
+    font-size: 56%;
+  }
+}
+@media (max-width: 59em) {
+  .art-box {
+    grid-template-columns: repeat 1fr;
+  }
+}
+@media (max-width: 350px) {
+  .button {
+    background-color: yellow;
+  }
+} */
+@media only screen and (max-width: 375px) {
+  .art-box {
+    width: 500px;
+    height: 42%;
+    position: relative;
+    background-color: rgb(14, 241, 93);
+    background-image: linear-gradient(
+      rgb(92, 16, 233),
+      rgb(41, 41, 83),
+      rgb(39, 7, 39)
+    );
+  }
+
+  .basic {
+    color: rgb(52, 11, 53);
+    display: none;
+  }
+
+  .innerbox {
+    position: absolute;
+    max-width: 365px;
+    height: 222px;
+    z-index: 10;
+    margin-top: 79px;
+    background-color: rgb(72, 9, 93);
+    border-radius: 7px;
+    margin-left: 14px;
+    /* margin-top: 118px; */
+    top: 64px;
+    background-image: linear-gradient(
+      650deg,
+      rgb(243, 29, 190),
+      rgb(41, 41, 83),
+      rgb(39, 7, 39)
+    );
+  }
+
+  .innestbox {
+    position: absolute;
+    width: 400px;
+    max-width: 325px;
+    height: 196px;
+    left: -89px;
+    top: 0px;
+  }
+
+  .letter {
+    font-size: 23px;
+  }
+
+  .greyshade {
+    height: 30px;
+    width: 222px;
+    top: 50px;
+    position: relative;
+
+    margin-left: 35px;
+  }
+  .doted {
+    margin: 80px;
+    width: 60px;
+    margin-left: 36px;
+  }
+  .max {
+    margin-left: -431px;
+    margin-top: -116px;
+    border-radius: 7px;
+  }
+}
